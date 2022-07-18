@@ -21,7 +21,7 @@ try:
     browser.find_element(By.ID, "answer").send_keys(calc(numb))
     browser.find_element(By.ID, "solve").click()
     print("Success !!!")
-    time.sleep(6)
+    time.sleep(10)
     browser.quit()
     print("Closed")
 
